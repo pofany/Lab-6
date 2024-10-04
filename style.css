@@ -1,0 +1,115 @@
+body {
+    font-family: "Handclaps", serif;
+    color: #ffffff; /* Білий колір шрифту */
+    font-size: medium;
+    background-image: url('images/m.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    width: 95%;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Темний прозорий фон для заголовка */
+    color: #f4ebd0; /* Світлий колір тексту */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "64", serif;
+}
+
+.text {
+    margin-left: 33%;
+    margin-top: -1560px;
+    font-size: 1.5em;
+    color: #f4ebd0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+
+@font-face {
+    font-family: "Handclaps";
+    src: url("fonts/handclaps/Handclaps DEMO.otf");
+}
+
+@font-face {
+    font-family: "64";
+    src: url("fonts/Sixtyfour_Convergence/SixtyfourConvergence-Regular-VariableFont_BLED,SCAN,XELA,YELA.ttf") format("truetype");
+}
+
+.map {
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.m {
+    margin-left: 60px;
+    color: #76ec9c;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    }
+
+.video {
+    margin-left: 475px;
+    border-radius: 10px;
+}
+
+.music {
+    margin-left: 500px;
+
+}
+
+.mp3 {
+    margin-left: 35%;
+    margin-top: -170px;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    color: #76ec9c;
+}
+
+.sub {
+    margin-left: 920px;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+    color: #76ec9c;
+}
+
+.instagram-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #E1306C;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    transition: background-color 0.3s;
+}
+
+.instagram-button:hover {
+    background-color: #C13584;
+}
+
+.instagram-button i {
+    margin: 0;
+}
+
